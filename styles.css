@@ -1,0 +1,94 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+   background-color: rgba(128, 128, 128, 0.295); 
+}
+
+
+section {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 0px grey;
+}
+
+h2 {
+    line-height: 2;
+    margin-bottom: 5rem;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+section > div > #congrats {
+    background-color: green;
+    font-size: 23px;
+    color: white;
+    padding: .5rem;
+    /* width: 40%; */
+    border-radius: 5px;
+    display: none;
+}
+
+section > div > .decline {
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.075);
+    font-size: 15px;
+    color: red;
+    padding: .5rem;
+    /* width: 40%; */
+    border-radius: 5px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    display: none;
+    justify-content: space-between;
+}
+
+section > div > .decline > .fa-exclamation-circle {
+    margin-right: 1rem;
+    cursor: pointer;
+} 
+
+section > div > .decline > .fa-x {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin: 0 0 .3rem 0;
+}
+
+input {
+    padding: .7rem;
+    border-radius: 5px;
+    border: .4px solid black;
+    margin: 0 0 1.5rem 0;
+
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: .7rem;
+    border: 0;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 2rem;
+    cursor: pointer;
+    /* color :  */
+}
+
